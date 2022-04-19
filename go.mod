@@ -7,9 +7,7 @@ require (
 	github.com/go-openapi/spec v0.19.2
 	github.com/kubeflow/common v0.3.3
 	github.com/kubernetes-sigs/kube-batch v0.5.0
-	github.com/prometheus/client_golang v1.5.1
 	github.com/stretchr/testify v1.4.0
-	golang.org/x/net v0.0.0-20200226121028-0de0cce0169b // indirect
 	k8s.io/api v0.16.15
 	k8s.io/apimachinery v0.16.15
 	k8s.io/apiserver v0.16.15
@@ -18,6 +16,10 @@ require (
 	k8s.io/kube-openapi v0.0.0-20200410163147-594e756bea31
 	k8s.io/sample-controller v0.16.15
 	volcano.sh/apis v1.2.0-k8s1.16.15
+	github.com/prometheus/client_golang v1.11.1
+	github.com/gogo/protobuf v1.3.2 // indirect
+	golang.org/x/text v0.3.7 // indirect
+
 )
 
 replace (

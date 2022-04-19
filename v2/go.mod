@@ -5,12 +5,14 @@ go 1.15
 require (
 	github.com/emicklei/go-restful v2.9.6+incompatible // indirect
 	github.com/go-openapi/spec v0.20.3
+	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/google/go-cmp v0.5.6
 	github.com/kubeflow/common v0.4.0
 	github.com/onsi/ginkgo v1.14.1
 	github.com/onsi/gomega v1.10.2
-	github.com/prometheus/client_golang v1.10.0
+	github.com/prometheus/client_golang v1.11.1
 	golang.org/x/crypto v0.0.0-20210616213533-5ff15b29337e
+	golang.org/x/text v0.3.7 // indirect
 	k8s.io/api v0.19.9
 	k8s.io/apimachinery v0.19.9
 	k8s.io/apiserver v0.19.9

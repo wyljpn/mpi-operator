@@ -1,5 +1,5 @@
 #FROM golang:1.15.13 AS build
-FROM golang:1.17.7 AS build
+FROM golang:1.18.1 AS build
 # FROM klstg-docker.slb-wartifactory-v.stg.rmn.local/rakuten/rflow/rflow-go:1.17 AS build
 
 ARG version=v2
